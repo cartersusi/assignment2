@@ -1,0 +1,45 @@
+Git Lab Tutorials: Mar 6, 2026
+
+GitHub Account: May 17, 2023
+
+Github Repo: https://github.com/cartersusi/assignment2
+
+I dont't have less installed on this computer so I have to use --no-paper for a lot of these commands.
+
+1. 
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+2. 8 total, 2 from me and 6 from Esteban Parra
+git log origin/master
+
+3. First modified on Wed Sep 25 18:33:08 2019
+git --no-pager log origin/master -- README.md
+
+4. 
+- Seperating workspaces between team members
+- Developing new features
+
+5. 
+git log: shows the history of commits 
+git status: shows the current changes to the branch
+
+6. git --no-pager log -- Vehicle.h
+
+7. git --no-pager log --grep="file"
+
+8.
+(i) Inheritance - when a chld class is built on top of a parent class
+(ii) Polymorphism - a C++ virtual class, it allows different classes to interit virtual methods by overriding the method
+(iii) Encapsulation - private/public type modifiers that keep variables and methods "encapsulated" within class functionality or provide full access 
+
+9. The main difference is that in the "Integration Manager Workflow" each developer acts as their own "lieutenant" in the "Dictator and Lieutenants Workflow" model by deeming their code good enough to be pushed from their private repo into the public repo.
+
+10. A Centralized workflow can provide benefit to a team of 100 developers just by providing some defined structure to the workflow.
